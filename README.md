@@ -2,6 +2,8 @@
 
 Página feita com HTML5 + CSS3.
 Página ainda não responsiva.
+Vale salientar que as telas do mockup foram tiradas do meu desktop, portanto, como não há responsividade,
+não há garantias de que a página irá se encaixar perfeitamenta em sua tela.
 
 ### Autor:
 
@@ -9,27 +11,21 @@ Página ainda não responsiva.
 
 ## Mockup
 
-### Tela Home
 
-<!-- ![alt text](https://github.com/jjoaosilva/PrimeiroAppIonic/blob/master/MOCKUP/TelaHome.png?raw=true)
+![alt text](https://github.com/jjoaosilva/desafio-html-josejoao/blob/master/mockup/inicio.PNG?raw=true)
 
-### Tela de Menu Lateral
 
-![alt text](https://github.com/jjoaosilva/PrimeiroAppIonic/blob/master/MOCKUP/TelaMenu.png?raw=true)
+![alt text](https://github.com/jjoaosilva/desafio-html-josejoao/blob/master/mockup/material.PNG?raw=true)
 
-### Tela de Contas
 
-![alt text](https://github.com/jjoaosilva/PrimeiroAppIonic/blob/master/MOCKUP/TelaContas.png?raw=true)
+![alt text](https://github.com/jjoaosilva/desafio-html-josejoao/blob/master/mockup/html_css.PNG?raw=true)
 
-### Tela de Adição de Gastos
 
-![alt text](https://github.com/jjoaosilva/PrimeiroAppIonic/blob/master/MOCKUP/TelaAdicionar.png?raw=true)
+![alt text](https://github.com/jjoaosilva/desafio-html-josejoao/blob/master/mockup/ruby.PNG?raw=true)
 
-### Tela de Edição de um Gasto
 
-![alt text](https://github.com/jjoaosilva/PrimeiroAppIonic/blob/master/MOCKUP/TelaEdicao.png?raw=true)
+![alt text](https://github.com/jjoaosilva/desafio-html-josejoao/blob/master/mockup/rodape.PNG?raw=true)
 
-### Tela de exclusão de um Gasto
 
-![alt text](https://github.com/jjoaosilva/PrimeiroAppIonic/blob/master/MOCKUP/TelaExcluir.png?raw=true) -->
+
 

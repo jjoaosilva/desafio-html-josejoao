@@ -247,5 +247,30 @@ footer a{
 }
 
 .devicon-github-plain{
-    color: black;
+    color: #606060;
+}
+
+footer#rodape{
+    background-color: black;
+    margin-top: 5px;
+}
+
+footer#rodape div#linha-footer{
+    display: table;
+}
+
+footer#rodape div#logoGti{
+    display: table-cell;
+    float: left;
+    
+}
+
+footer#rodape div#texto-footer{
+    display: table-cell;
+    float: right;
+}
+
+footer#rodape div#texto-footer h1{
+    margin-top: 33px;
+    color: #606060;
 }

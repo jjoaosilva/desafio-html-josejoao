@@ -5,11 +5,36 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+		
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet">
+
+		<!-- BIBLIOTECA JQUERY -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<!-- BIBLIOTECA JQUERY UI -->
+		<script src="js/jquery-ui.js"></script>
+		<!-- BIBLIOTECA TOASTR (notificacao personalizada) -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.js"></script>
+		<!--MEU JS-->
+		<script type="text/javascript" src="js/script.js"></script>
 
         <title>Curso de html 5</title>
     </head>
     <body>
         <div id="interface">
+			<div id="alerta" hidden="">
+				<div class="title">Receba Nossas Novidades <i class="fa fa-times"></i></div>
+				<div class="body">
+				   <form id="novidadesform" name="contact-form" method="POST" >
+					  <label>e-mail:</label>
+					  <input type="text" name="email" placeholder="digite seu email">
+					  <button type="submit">Enviar</button>
+				   </form>
+				   <div class="resultado"></div>
+				</div>
+			 </div>
+			 
 
             <header id="cabecalho">
 				<div class="hero-image">
@@ -17,8 +42,8 @@
 						<p><img src="images/icone-header.png">APRENDA A <br/>DESENVOLVER COM A GTi JR.</p>
 						<!-- <button type="submit" class="button1" href="#Cursos-html-css-js">HTML + CSS3 + JS</button>
 						<button type="submit" class="button1" href="#Cursos-ruby-on-rails">Ruby On Rails</button> -->
-						<button type="submit" class="button1"><a href="#Cursos-html-css-js">HTML + CSS3 + JS</a></button>
-						<button type="submit" class="button1"><a href="#Cursos-ruby-on-rails">Ruby On Rails</a></button>
+						<button title ="Ir ao curso" type="submit" class="button1"><a href="#Cursos-html-css-js">HTML + CSS3 + JS</a></button>
+						<button title ="Ir ao curso" type="submit" class="button1"><a href="#Cursos-ruby-on-rails">Ruby On Rails</a></button>
 					</div>
 					</div>
 				</div>
@@ -29,8 +54,10 @@
 					<img src="images/logo.png">
 				</div>
 
+				
 				<div id="lista-menu">
 					<ul>
+						<li><a href="#"><div id="contador"></div></a></li>
 						<li><a href="#">Início     </a></li>
 						<li><a href="#">Categorias </a></li>
 						<li><a href="#">Blog       </a></li>
@@ -59,51 +86,51 @@
 
 					<div class="linha">
 						<div class="bloco">
-							<div class="curso-html">
+							<div title ="Introdução a HTML5" class="curso-html">
 								<img src="images/html.png">
 								<h4>HTML 5 - Introdução <br/> Postado por Patrick</h4>
 							</div>
 							<div class="selecao">
 								<h4>Postado dia 04/08/2017</h4>
-								<center><button class="button-estudar-agora00">ESTUDAR AGORA</button></center>
+								<center><button class="button-estudar-agora00 buttonHtml1">ESTUDAR AGORA</button></center>
 							</div>
 						</div>
 		
 						<div class="bloco">
-							<div class="curso-html">
+							<div  title ="Curso HTML5"class="curso-html">
 								<img src="images/html.png">
 								<h4>Lista de livros <br/> Postado por Rayane</h4>
 							</div>
 							<div class="selecao">
 								<h4>Postado dia 04/08/2017</h4>
-								<center><button class="button-estudar-agora00">ESTUDAR AGORA</button></center>
+								<center><button class="button-estudar-agora00 buttonHtml2">ESTUDAR AGORA</button></center>
 							</div>
 						</div>
 		
 						<div class="bloco">
-							<div class="curso-ccshtml">
+							<div  title ="Introdução a HTML5 e CSS3" class="curso-ccshtml">
 								<img src="images/html-css.png">
 								<h4>HTML 5 & CSS3- Introdução <br/> Postado por José</h4>
 							</div>
 							<div class="selecao">
 								<h4>Postado dia 12/04/2018</h4>
-								<center><button class="button-estudar-agora00">ESTUDAR AGORA</button></center>
+								<center><button class="button-estudar-agora00 buttonHtmlCss">ESTUDAR AGORA</button></center>
 							</div>
 						</div>
 		
 						<div class="bloco">
-							<div class="curso-js">
+							<div title ="Introdução JavaScript"class="curso-js">
 								<img src="images/js.png">
 								<h4>JavaScrip - Introdução <br/> Postado por João</h4>
 							</div>
 							<div class="selecao">
 								<h4>Postado dia 12/04/2018</h4>
-								<center><button class="button-estudar-agora00">ESTUDAR AGORA</button></center>
+								<center><button class="button-estudar-agora00 buttonJS">ESTUDAR AGORA</button></center>
 							</div>
 						</div>
 
-						<div class="botao-Vermais">
-							<center><button>VER +</button></center>
+						<div class="botao-Vermais ">
+							<center><button class='VMHTML'>VER +</button></center>
 						</div>
 					</div>
 				</article>
@@ -113,18 +140,18 @@
 
 					<div class="linha">
 						<div class="bloco">
-							<div class="curso-ruby">
+							<div title ="Introdução a Ruby" class="curso-ruby">
 								<img src="images/ruby.png">
 								<h4>Ruby - Introdução <br/> Postado por Lucas Noleto</h4>
 							</div>
 							<div class="selecao">
 								<h4>Postado dia 02/04/2018</h4>
-								<center><button class="button-estudar-agora01">ESTUDAR AGORA</button></center>
+								<center><button class="button-estudar-agora01 buttonRuby">ESTUDAR AGORA</button></center>
 							</div>
 						</div>
 		
 						<div class="bloco">
-							<div class="curso-rails">
+							<div title ="Introdução a Rails 5" class="curso-rails">
 								<img src="images/rails.png">
 								<h4>RAILS 5 - Introdução <br/> Postado por Patrick</h4>
 							</div>
@@ -135,18 +162,18 @@
 						</div>
 		
 						<div class="bloco">
-							<div class="curso-heroku">
+							<div title ="Fazendo deploy no heroku" class="curso-heroku">
 								<img src="images/heroku.png">
 								<h4>Fazendo deploy no heroku <br/> Postado por Eduardo</h4>
 							</div>
 							<div class="selecao">
 								<h4>Postado dia 02/04/2018</h4>
-								<center><button class="button-estudar-agora01">ESTUDAR AGORA</button></center>
+								<center><button class="button-estudar-agora01 buttonHeroku">ESTUDAR AGORA</button></center>
 							</div>
 						</div>
 		
 						<div class="bloco">
-							<div class="curso-rails">
+							<div title ="Rails: GEMS importantes" class="curso-rails">
 								<img src="images/rails.png">
 								<h4>RAILS - GEMS importantes <br/> Postado por Gilvan
 							</div>
@@ -157,7 +184,7 @@
 						</div>
 
 						<div class="botao-Vermais">
-							<center><button>VER +</button></center>
+							<center><button class='VMRuby'>VER +</button></center>
 						</div>
 					</div>
 				</article>

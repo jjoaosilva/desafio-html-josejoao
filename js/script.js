@@ -29,7 +29,6 @@ $(document).ready(function() {
     });
 
     stylebutton();
-    descricoes();
 
     $('#alerta').draggable();
     contador();
